@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "investments": "Investments",
+    "features": "Features",
+    "contact": "Contact"
+  },
+  "hero": {
+    "pill": "Sustainable Cattle Farming",
+    "title": "Invest in Ethical Cattle Farming",
+    "subtitle": "Join Akib Agro Farm's investment program and grow your wealth while supporting sustainable agriculture. Our transparent platform lets you track your investment from purchase to harvest.",
+    "cta1": "View Investment Packages",
+    "cta2": "Get Started",
+    "stat1": {
+      "value": "500+",
+      "label": "Active Investors"
+    },
+    "stat2": {
+      "value": "98%",
+      "label": "Success Rate"
+    },
+    "stat3": {
+      "value": "12+",
+      "label": "Years Experience"
+    }
+  },
+  "about": {
+    "label": "About Us",
+    "title": "Trusted Cattle Farming Investment Platform",
+    "description": "Akib Agro Farm specializes in sustainable cattle farming with a proven track record. We offer transparent investment opportunities where you can invest in cattle packages and track your investment through our comprehensive management platform.",
+    "feature1": {
+      "title": "Transparent Tracking",
+      "description": "Monitor your investment in real-time with detailed dashboards and reports."
+    },
+    "feature2": {
+      "title": "Flexible Payments",
+      "description": "Pay in full or choose flexible installment plans that suit your budget."
+    },
+    "feature3": {
+      "title": "Expert Management",
+      "description": "Our experienced team manages every aspect of cattle care and farm operations."
+    }
+  },
+  "investments": {
+    "label": "Investment Opportunities",
+    "title": "Choose Your Investment Package",
+    "description": "Select from our range of cattle investment packages. Each package includes full transparency, regular updates, and flexible payment options.",
+    "duration": "Duration:",
+    "price": "Price:",
+    "popular": "Popular",
+    "cta": "Invest Now",
+    "package1": {
+      "name": "Qurban Cow Investment",
+      "description": "Invest in premium cattle for Qurban. Track your investment from purchase to harvest.",
+      "duration": "12 months",
+      "price": "From RM 2,000"
+    },
+    "package2": {
+      "name": "Premium Cattle Package",
+      "description": "Premium investment package with extended duration and higher returns.",
+      "duration": "18 months",
+      "price": "From RM 3,500"
+    },
+    "package3": {
+      "name": "Goat Investment",
+      "description": "Diversify your portfolio with our goat farming investment packages.",
+      "duration": "10 months",
+      "price": "From RM 1,500"
+    }
+  },
+  "features": {
+    "label": "Platform Features",
+    "title": "Complete Investment Management Platform",
+    "description": "Our comprehensive platform provides everything you need to manage and track your investments with confidence.",
+    "feature1": {
+      "title": "Investment Packages",
+      "description": "Browse and select from various cattle investment packages with transparent pricing and terms."
+    },
+    "feature2": {
+      "title": "Flexible Payments",
+      "description": "Pay in full or choose installment plans. Track all your payments and receipts in one place."
+    },
+    "feature3": {
+      "title": "Investment Dashboard",
+      "description": "Monitor your investments, view order status, and track payment schedules with real-time updates."
+    },
+    "feature4": {
+      "title": "Notifications",
+      "description": "Receive instant notifications for order confirmations, payment reminders, and important updates."
+    },
+    "feature5": {
+      "title": "Mobile Optimized",
+      "description": "Access your investment dashboard from any device, anywhere, anytime."
+    },
+    "feature6": {
+      "title": "Secure & Transparent",
+      "description": "Your data is secure with enterprise-grade security. All transactions are transparent and auditable."
+    }
+  },
+  "process": {
+    "label": "Simple Process",
+    "title": "How Investment Works",
+    "step1": {
+      "title": "Choose Package",
+      "description": "Browse our investment packages and select the one that suits your goals."
+    },
+    "step2": {
+      "title": "Place Order",
+      "description": "Place your investment order and choose payment method (full or installments)."
+    },
+    "step3": {
+      "title": "Track Investment",
+      "description": "Monitor your investment through our dashboard with real-time updates and reports."
+    },
+    "step4": {
+      "title": "Receive Returns",
+      "description": "Get returns on your investment according to the package terms and duration."
+    }
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What Our Investors Say",
+    "testimonial1": {
+      "text": "Investing with Akib Agro Farm has been a great experience. The platform is transparent, payments are easy, and I can track everything in real-time.",
+      "name": "Ahmad Rahman",
+      "role": "Investor since 2022"
+    },
+    "testimonial2": {
+      "text": "The installment payment option made it easy for me to invest. The dashboard is user-friendly and I receive timely notifications about my investments.",
+      "name": "Siti Nurhaliza",
+      "role": "Investor since 2023"
+    },
+    "testimonial3": {
+      "text": "Professional service and excellent returns. The team is responsive and the platform provides all the information I need to make informed decisions.",
+      "name": "Mohd Faizal",
+      "role": "Investor since 2021"
+    }
+  },
+  "contact": {
+    "label": "Get Started",
+    "title": "Ready to Invest?",
+    "description": "Contact us today to learn more about our investment packages and start your journey with Akib Agro Farm.",
+    "phone": {
+      "label": "Phone",
+      "value": "+60 12-345 6789"
+    },
+    "email": {
+      "label": "Email",
+      "value": "info@akibagro.com"
+    },
+    "address": {
+      "label": "Address",
+      "value": "Selangor, Malaysia"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "tagline": "Sustainable cattle farming investment.",
+    "links": "Quick Links",
+    "contact": "Contact",
+    "follow": "Follow Us",
+    "copyright": "© 2024 Akib Agro Farm. All rights reserved."
+  }
+}
+

@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Laman Utama",
+    "about": "Tentang Kami",
+    "investments": "Pelaburan",
+    "features": "Ciri-ciri",
+    "contact": "Hubungi Kami"
+  },
+  "hero": {
+    "pill": "Penternakan Lembu Lestari",
+    "title": "Melabur dalam Penternakan Lembu Beretika",
+    "subtitle": "Sertai program pelaburan Akib Agro Farm dan kembangkan kekayaan anda sambil menyokong pertanian lestari. Platform telus kami membolehkan anda menjejaki pelaburan anda dari pembelian hingga hasil.",
+    "cta1": "Lihat Pakej Pelaburan",
+    "cta2": "Mula Sekarang",
+    "stat1": {
+      "value": "500+",
+      "label": "Pelabur Aktif"
+    },
+    "stat2": {
+      "value": "98%",
+      "label": "Kadar Kejayaan"
+    },
+    "stat3": {
+      "value": "12+",
+      "label": "Tahun Pengalaman"
+    }
+  },
+  "about": {
+    "label": "Tentang Kami",
+    "title": "Platform Pelaburan Penternakan Lembu Yang Dipercayai",
+    "description": "Akib Agro Farm mengkhusus dalam penternakan lembu lestari dengan rekod prestasi yang terbukti. Kami menawarkan peluang pelaburan yang telus di mana anda boleh melabur dalam pakej lembu dan menjejaki pelaburan anda melalui platform pengurusan kami yang komprehensif.",
+    "feature1": {
+      "title": "Penjejakan Telus",
+      "description": "Pantau pelaburan anda dalam masa nyata dengan papan pemuka dan laporan terperinci."
+    },
+    "feature2": {
+      "title": "Bayaran Fleksibel",
+      "description": "Bayar penuh atau pilih pelan ansuran fleksibel yang bersesuaian dengan bajet anda."
+    },
+    "feature3": {
+      "title": "Pengurusan Pakar",
+      "description": "Pasukan kami yang berpengalaman menguruskan setiap aspek penjagaan lembu dan operasi ladang."
+    }
+  },
+  "investments": {
+    "label": "Peluang Pelaburan",
+    "title": "Pilih Pakej Pelaburan Anda",
+    "description": "Pilih daripada pelbagai pakej pelaburan lembu kami. Setiap pakej merangkumi ketelusan penuh, kemas kini berkala, dan pilihan pembayaran yang fleksibel.",
+    "duration": "Tempoh:",
+    "price": "Harga:",
+    "popular": "Popular",
+    "cta": "Melabur Sekarang",
+    "package1": {
+      "name": "Pelaburan Lembu Qurban",
+      "description": "Melabur dalam lembu premium untuk Qurban. Jejaki pelaburan anda dari pembelian hingga hasil.",
+      "duration": "12 bulan",
+      "price": "Dari RM 2,000"
+    },
+    "package2": {
+      "name": "Pakej Lembu Premium",
+      "description": "Pakej pelaburan premium dengan tempoh yang lebih panjang dan pulangan yang lebih tinggi.",
+      "duration": "18 bulan",
+      "price": "Dari RM 3,500"
+    },
+    "package3": {
+      "name": "Pelaburan Kambing",
+      "description": "Pelbagaikan portfolio anda dengan pakej pelaburan penternakan kambing kami.",
+      "duration": "10 bulan",
+      "price": "Dari RM 1,500"
+    }
+  },
+  "features": {
+    "label": "Ciri-ciri Platform",
+    "title": "Platform Pengurusan Pelaburan Yang Lengkap",
+    "description": "Platform komprehensif kami menyediakan semua yang anda perlukan untuk mengurus dan menjejaki pelaburan anda dengan yakin.",
+    "feature1": {
+      "title": "Pakej Pelaburan",
+      "description": "Semak imbas dan pilih daripada pelbagai pakej pelaburan lembu dengan harga dan syarat yang telus."
+    },
+    "feature2": {
+      "title": "Bayaran Fleksibel",
+      "description": "Bayar penuh atau pilih pelan ansuran. Jejaki semua pembayaran dan resit anda di satu tempat."
+    },
+    "feature3": {
+      "title": "Papan Pemuka Pelaburan",
+      "description": "Pantau pelaburan anda, lihat status pesanan, dan jejaki jadual pembayaran dengan kemas kini masa nyata."
+    },
+    "feature4": {
+      "title": "Pemberitahuan",
+      "description": "Terima pemberitahuan segera untuk pengesahan pesanan, peringatan pembayaran, dan kemas kini penting."
+    },
+    "feature5": {
+      "title": "Dioptimumkan untuk Mudah Alih",
+      "description": "Akses papan pemuka pelaburan anda dari mana-mana peranti, di mana sahaja, pada bila-bila masa."
+    },
+    "feature6": {
+      "title": "Selamat & Telus",
+      "description": "Data anda selamat dengan keselamatan tahap perusahaan. Semua transaksi adalah telus dan boleh diaudit."
+    }
+  },
+  "process": {
+    "label": "Proses Mudah",
+    "title": "Cara Pelaburan Berfungsi",
+    "step1": {
+      "title": "Pilih Pakej",
+      "description": "Semak imbas pakej pelaburan kami dan pilih yang sesuai dengan matlamat anda."
+    },
+    "step2": {
+      "title": "Buat Pesanan",
+      "description": "Buat pesanan pelaburan anda dan pilih kaedah pembayaran (penuh atau ansuran)."
+    },
+    "step3": {
+      "title": "Jejak Pelaburan",
+      "description": "Pantau pelaburan anda melalui papan pemuka kami dengan kemas kini dan laporan masa nyata."
+    },
+    "step4": {
+      "title": "Terima Pulangan",
+      "description": "Dapatkan pulangan atas pelaburan anda mengikut syarat dan tempoh pakej."
+    }
+  },
+  "testimonials": {
+    "label": "Testimoni",
+    "title": "Apa Kata Pelabur Kami",
+    "testimonial1": {
+      "text": "Melabur dengan Akib Agro Farm telah menjadi pengalaman yang hebat. Platform ini telus, pembayaran mudah, dan saya boleh menjejaki segala-galanya dalam masa nyata.",
+      "name": "Ahmad Rahman",
+      "role": "Pelabur sejak 2022"
+    },
+    "testimonial2": {
+      "text": "Pilihan bayaran ansuran memudahkan saya untuk melabur. Papan pemuka mesra pengguna dan saya menerima pemberitahuan tepat pada masanya mengenai pelaburan saya.",
+      "name": "Siti Nurhaliza",
+      "role": "Pelabur sejak 2023"
+    },
+    "testimonial3": {
+      "text": "Perkhidmatan profesional dan pulangan yang cemerlang. Pasukan ini responsif dan platform menyediakan semua maklumat yang saya perlukan untuk membuat keputusan termaklum.",
+      "name": "Mohd Faizal",
+      "role": "Pelabur sejak 2021"
+    }
+  },
+  "contact": {
+    "label": "Mula Sekarang",
+    "title": "Bersedia untuk Melabur?",
+    "description": "Hubungi kami hari ini untuk mengetahui lebih lanjut mengenai pakej pelaburan kami dan mulakan perjalanan anda dengan Akib Agro Farm.",
+    "phone": {
+      "label": "Telefon",
+      "value": "+60 12-345 6789"
+    },
+    "email": {
+      "label": "E-mel",
+      "value": "info@akibagro.com"
+    },
+    "address": {
+      "label": "Alamat",
+      "value": "Selangor, Malaysia"
+    },
+    "form": {
+      "name": "Nama",
+      "email": "E-mel",
+      "phone": "Telefon",
+      "message": "Mesej",
+      "submit": "Hantar Mesej"
+    }
+  },
+  "footer": {
+    "tagline": "Pelaburan penternakan lembu lestari.",
+    "links": "Pautan Pantas",
+    "contact": "Hubungi",
+    "follow": "Ikuti Kami",
+    "copyright": "© 2024 Akib Agro Farm. Hak cipta terpelihara."
+  }
+}
