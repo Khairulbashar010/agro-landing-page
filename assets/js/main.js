@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.updateWhatsAppLinks = function(lang = null) {
     const currentLang = lang || window.languageSwitcher?.currentLang || 'en';
     const translations = window.languageSwitcher?.translations?.[currentLang];
-    const phoneNumber = '60123456789'; // Update this with actual phone number
+    const phoneNumber = '+601124153417'; // Update this with actual phone number
     
     if (!translations || !translations.whatsapp) {
       // Retry after a short delay if translations aren't loaded yet
@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
               // Fallback: construct URL from package type
               const packageType = this.getAttribute('data-whatsapp-package');
-              const phoneNumber = '60123456789';
+              const phoneNumber = '+601124153417';
               let message = "Hello! I'm interested in learning more about your investment packages.";
               if (packageType === 'package1') {
                 message = "Hello! I'm interested in the Long-Term Sheep Investment package. Can you provide more information?";
@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
               window.open(newHref, '_blank', 'noopener,noreferrer');
             } else {
               // Fallback
-              const phoneNumber = '60123456789';
+              const phoneNumber = '+601124153417';
               const message = encodeURIComponent("Hello! I'm interested in learning more about your investment packages.");
               window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank', 'noopener,noreferrer');
             }
