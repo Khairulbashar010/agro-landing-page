@@ -51,6 +51,7 @@
     "returns": "Pulangan:",
     "popular": "Popular",
     "cta": "Labur Sekarang",
+    "learnMore": "Ketahui Lebih Lanjut",
     "package1": {
       "name": "Pelaburan Jangka Panjang Kambing Biri-biri",
       "description": "Pelaburan 18 bulan dengan jaminan 2 ekor anak. Sesuai untuk pelaburan pertanian jangka panjang.",
@@ -173,6 +174,150 @@
     "copyright": "© 2025 Akib Agro Farm. Hak cipta terpelihara."
   },
   "whatsapp": {
-    "tooltip": "Hubungi untuk melabur"
+    "tooltip": "Hubungi untuk melabur",
+    "genericMessage": "Hello! Saya berminat untuk mengetahui lebih lanjut tentang pakej pelaburan anda.",
+    "package1Message": "Hello! Saya berminat dengan pakej Pelaburan Jangka Panjang Kambing Biri-biri. Bolehkah anda memberikan maklumat lanjut?",
+    "package2Message": "Hello! Saya berminat dengan Projek Qurban Kambing Biri-biri. Bolehkah anda memberikan maklumat lanjut?",
+    "package3Message": "Hello! Saya berminat dengan pakej Penternakan Ayam Kampung. Bolehkah anda memberikan maklumat lanjut?"
+  },
+  "packageDetail": {
+    "back": "← Kembali ke Pakej",
+    "summary": "Ringkasan Pakej",
+    "duration": "Tempoh:",
+    "initialCost": "Kos Permulaan:",
+    "returns": "Pulangan:",
+    "profitShare": "Perkongsian Untung:",
+    "monthlyCost": "Kos Bulanan:",
+    "sellingPrice": "Harga Jualan:",
+    "cta": "Labur Sekarang",
+    "package1": {
+      "badge": "Pelaburan Jangka Panjang",
+      "title": "Pelaburan Jangka Panjang Kambing Biri-biri",
+      "subtitle": "Pelaburan 18 bulan dengan jaminan 2 ekor anak. Sesuai untuk pelaburan pertanian jangka panjang dengan terma telus dan pengurusan pakar.",
+      "initialCost": {
+        "title": "Kos Permulaan",
+        "purchase": "Pembelian:",
+        "purchaseValue": "RM 850 seekor",
+        "care": "Makanan, Ubat & Penjagaan:",
+        "careValue": "RM 500 seekor",
+        "total": "Jumlah Kos Permulaan:",
+        "totalValue": "RM 1,350 seekor"
+      },
+      "contract": {
+        "title": "Tempoh Kontrak",
+        "duration": "18 bulan"
+      },
+      "returns": {
+        "title": "Pulangan",
+        "guaranteed": "Dijamin 2 ekor anak dalam tempoh 18 bulan"
+      },
+      "extension": {
+        "title": "Pilihan Sambungan",
+        "description": "Selepas 18 bulan pertama, teruskan untuk 18 bulan lagi dengan hanya membayar RM 500 seekor (untuk penjagaan dan makanan)."
+      },
+      "specifications": {
+        "title": "Spesifikasi Umur & Berat",
+        "age": "Umur Pembelian Ideal:",
+        "ageValue": "Kambing biri-biri dewasa muda yang telah mencapai umur matang pembiakan: sekitar 15 bulan untuk betina dan kira-kira 13 bulan untuk jantan.",
+        "weight": "Berat Hidup:",
+        "weightValue": "Untuk pembelian pembiakan, kambing biri-biri sekitar 12-18 bulan dan berat 35-45 kg akan menjadi garis panduan yang munasabah (bergantung pada baka dan keadaan)."
+      },
+      "mortality": {
+        "title": "Kadar Kematian Dijangka",
+        "rate": "Untuk kambing biri-biri secara amnya di bawah pengurusan yang baik: kira-kira 5-10% kematian."
+      },
+      "summary": {
+        "duration": "18 bulan",
+        "cost": "RM 1,350/ekor",
+        "returns": "Dijamin 2 ekor anak"
+      }
+    },
+    "package2": {
+      "badge": "Popular",
+      "title": "Projek Qurban Kambing Biri-biri",
+      "subtitle": "Pelaburan 6 bulan dengan perkongsian kos dan untung 50/50. Ideal untuk peluang pelaburan bermusim dengan terma telus.",
+      "contract": {
+        "title": "Tempoh Kontrak",
+        "duration": "Enam bulan"
+      },
+      "initialCost": {
+        "title": "Perkongsian Kos Permulaan (seekor)",
+        "purchase": "Pembelian:",
+        "purchaseValue": "RM 500",
+        "food": "Makanan:",
+        "foodValue": "RM 20–30 seekor sebulan",
+        "service": "Yuran Perkhidmatan:",
+        "serviceValue": "RM 5 seekor sebulan"
+      },
+      "profit": {
+        "title": "Perkongsian Untung & Kos",
+        "cost": "Kos Dikongsi:",
+        "costValue": "50/50",
+        "profit": "Untung Dikongsi:",
+        "profitValue": "50/50"
+      },
+      "selling": {
+        "title": "Harga Jualan",
+        "price": "Harga pasaran purata: RM 900-1,100 untuk kambing biri-biri ~30kg"
+      },
+      "specifications": {
+        "title": "Spesifikasi Umur & Berat",
+        "age": "Umur Pembelian Ideal:",
+        "ageValue": "Beli kambing biri-biri yang sudah hampir dengan berat jualan/kurban untuk mengurangkan risiko dan masa pemakanan. Di Malaysia kambing biri-biri matang pada 6-9 bulan untuk kematangan umum.",
+        "weight": "Berat Sasaran:",
+        "weightValue": "Jika berat sasaran adalah ~30 kg untuk jualan, anda mungkin membeli kambing biri-biri berumur 6-9 bulan dengan berat hidup mungkin 20-30 kg (bergantung baka). Ini memastikan dalam tempoh enam bulan kambing biri-biri dapat mencapai berat jualan."
+      },
+      "mortality": {
+        "title": "Kadar Kematian Dijangka",
+        "rate": "Walaupun sasaran anda adalah 5-10%, projek tempoh intensif yang lebih pendek mungkin melihat lebih rendah atau lebih tinggi bergantung pada pengurusan; gunakan angka 5-10% sebagai garis panduan."
+      },
+      "summary": {
+        "duration": "6 bulan",
+        "cost": "RM 500/ekor",
+        "profit": "Pembahagian 50/50"
+      }
+    },
+    "package3": {
+      "badge": "Pulangan Pantas",
+      "title": "Penternakan Ayam Kampung",
+      "subtitle": "Pelaburan 4 bulan dalam penternakan ayam kampung premium. Pulangan pantas dengan hasil berkualiti dan terma telus.",
+      "contract": {
+        "title": "Tempoh Kontrak",
+        "duration": "Empat bulan"
+      },
+      "initialCost": {
+        "title": "Kos Permulaan (seekor)",
+        "purchase": "Pembelian:",
+        "purchaseValue": "RM 4.50"
+      },
+      "monthlyCost": {
+        "title": "Kos Bulanan",
+        "food": "Makanan: RM 12–15 seekor"
+      },
+      "growth": {
+        "title": "Maklumat Pertumbuhan",
+        "type": "Jenis Pertumbuhan:",
+        "typeValue": "Ayam kampung tumbuh lebih perlahan daripada ayam pedaging komersial.",
+        "period": "Tempoh Penternakan:",
+        "periodValue": "Mereka biasanya mencapai berat pasaran (1.3 – 1.8 kg berat hidup) dalam kira-kira 90 – 120 hari (3–4 bulan).",
+        "quality": "Kualiti:",
+        "qualityValue": "Tempoh penternakan yang lebih lama memberikan mereka daging yang lebih padat dan rasa yang lebih baik — sesuai untuk pasaran tempatan premium."
+      },
+      "selling": {
+        "title": "Harga Jualan",
+        "price": "RM 40 – 50 seekor (bergantung pada berat dan permintaan)",
+        "pricePerKg": "Setara dengan sekitar RM 25 – 30 sekilogram"
+      },
+      "mortality": {
+        "title": "Kadar Kematian Dijangka",
+        "rate": "Sekitar 15 – 20% adalah tipikal untuk ladang ayam kampung berskala kecil atau separa bebas, kerana mereka kurang dikendalikan secara intensif berbanding ayam pedaging."
+      },
+      "summary": {
+        "duration": "4 bulan",
+        "cost": "RM 4.50/ekor",
+        "monthly": "RM 12-15/ekor",
+        "selling": "RM 40-50/ekor"
+      }
+    }
   }
 }

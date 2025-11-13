@@ -25,8 +25,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Smooth scroll for anchor links
+  // Smooth scroll for anchor links (exclude WhatsApp links)
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    // Skip WhatsApp buttons
+    if (anchor.hasAttribute('data-whatsapp-package') || anchor.classList.contains('whatsapp-float')) {
+      return;
+    }
+    
     anchor.addEventListener('click', function (e) {
       const href = this.getAttribute('href');
       if (href !== '#' && href.length > 1) {
@@ -161,12 +166,153 @@ document.addEventListener('DOMContentLoaded', () => {
   // Update year after language switcher runs (with a small delay to ensure translations are loaded)
   setTimeout(updateYear, 100);
   
+  // WhatsApp link updater (global function)
+  window.updateWhatsAppLinks = function(lang = null) {
+    const currentLang = lang || window.languageSwitcher?.currentLang || 'en';
+    const translations = window.languageSwitcher?.translations?.[currentLang];
+    const phoneNumber = '60123456789'; // Update this with actual phone number
+    
+    if (!translations || !translations.whatsapp) {
+      // Retry after a short delay if translations aren't loaded yet
+      setTimeout(() => window.updateWhatsAppLinks(lang), 200);
+      return;
+    }
+
+    // Update floating WhatsApp button (generic message)
+    const floatingWhatsApp = document.querySelector('.whatsapp-float');
+    if (floatingWhatsApp) {
+      const genericMessage = translations.whatsapp?.genericMessage || "Hello! I'm interested in learning more about your investment packages.";
+      const encodedMessage = encodeURIComponent(genericMessage);
+      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+      floatingWhatsApp.href = whatsappUrl;
+      floatingWhatsApp.setAttribute('href', whatsappUrl);
+    }
+
+    // Update package-specific WhatsApp buttons
+    document.querySelectorAll('[data-whatsapp-package]').forEach(button => {
+      const packageType = button.getAttribute('data-whatsapp-package');
+      let message = '';
+      
+      switch(packageType) {
+        case 'package1':
+          message = translations.whatsapp?.package1Message || translations.whatsapp?.genericMessage || "Hello! I'm interested in the Long-Term Sheep Investment package.";
+          break;
+        case 'package2':
+          message = translations.whatsapp?.package2Message || translations.whatsapp?.genericMessage || "Hello! I'm interested in the Sheep Qurban Project.";
+          break;
+        case 'package3':
+          message = translations.whatsapp?.package3Message || translations.whatsapp?.genericMessage || "Hello! I'm interested in the Kampung Chicken Farming package.";
+          break;
+        default:
+          message = translations.whatsapp?.genericMessage || "Hello! I'm interested in learning more about your investment packages.";
+      }
+      
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+      button.href = whatsappUrl;
+      button.setAttribute('href', whatsappUrl);
+    });
+  };
+
+  // Initialize WhatsApp links - wait for language switcher to be ready
+  const initWhatsAppLinks = () => {
+    if (window.languageSwitcher && window.languageSwitcher.translations && 
+        Object.keys(window.languageSwitcher.translations).length > 0 &&
+        window.languageSwitcher.translations[window.languageSwitcher.currentLang]?.whatsapp) {
+      window.updateWhatsAppLinks();
+    } else {
+      // Retry if language switcher isn't ready yet (max 10 attempts = 2 seconds)
+      if (typeof initWhatsAppLinks.attempts === 'undefined') {
+        initWhatsAppLinks.attempts = 0;
+      }
+      initWhatsAppLinks.attempts++;
+      if (initWhatsAppLinks.attempts < 20) {
+        setTimeout(initWhatsAppLinks, 100);
+      }
+    }
+  };
+
+  // Add click handlers for WhatsApp buttons immediately (fallback)
+  document.querySelectorAll('[data-whatsapp-package]').forEach(button => {
+    button.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      // If href is still "#" or not a WhatsApp URL, prevent default and try to update
+      if (!href || href === '#' || !href.includes('wa.me')) {
+        e.preventDefault();
+        e.stopPropagation();
+        // Try to update links and retry
+        if (window.updateWhatsAppLinks) {
+          window.updateWhatsAppLinks();
+          setTimeout(() => {
+            const newHref = this.getAttribute('href');
+            if (newHref && newHref !== '#' && newHref.includes('wa.me')) {
+              window.open(newHref, '_blank', 'noopener,noreferrer');
+            } else {
+              // Fallback: construct URL from package type
+              const packageType = this.getAttribute('data-whatsapp-package');
+              const phoneNumber = '60123456789';
+              let message = "Hello! I'm interested in learning more about your investment packages.";
+              if (packageType === 'package1') {
+                message = "Hello! I'm interested in the Long-Term Sheep Investment package. Can you provide more information?";
+              } else if (packageType === 'package2') {
+                message = "Hello! I'm interested in the Sheep Qurban Project. Can you provide more information?";
+              } else if (packageType === 'package3') {
+                message = "Hello! I'm interested in the Kampung Chicken Farming package. Can you provide more information?";
+              }
+              const encodedMessage = encodeURIComponent(message);
+              window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank', 'noopener,noreferrer');
+            }
+          }, 200);
+        }
+        return false;
+      }
+      // If href is valid WhatsApp URL, allow default behavior
+    });
+  });
+  
+  // Also add handler for floating WhatsApp button
+  const floatingWhatsApp = document.querySelector('.whatsapp-float');
+  if (floatingWhatsApp) {
+    floatingWhatsApp.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (!href || href === '#' || !href.includes('wa.me')) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (window.updateWhatsAppLinks) {
+          window.updateWhatsAppLinks();
+          setTimeout(() => {
+            const newHref = this.getAttribute('href');
+            if (newHref && newHref !== '#' && newHref.includes('wa.me')) {
+              window.open(newHref, '_blank', 'noopener,noreferrer');
+            } else {
+              // Fallback
+              const phoneNumber = '60123456789';
+              const message = encodeURIComponent("Hello! I'm interested in learning more about your investment packages.");
+              window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank', 'noopener,noreferrer');
+            }
+          }, 200);
+        }
+        return false;
+      }
+    });
+  }
+
+  // Start initialization after a short delay to ensure language switcher has started
+  setTimeout(initWhatsAppLinks, 300);
+  
+  // Also check immediately if language switcher is already initialized
+  if (window.languageSwitcher && window.languageSwitcher.translations && 
+      Object.keys(window.languageSwitcher.translations).length > 0) {
+    setTimeout(() => window.updateWhatsAppLinks(), 100);
+  }
+
   // Also update year when language changes
   if (window.languageSwitcher) {
     const originalUpdateLanguage = window.languageSwitcher.updateLanguage.bind(window.languageSwitcher);
     window.languageSwitcher.updateLanguage = function(lang) {
       originalUpdateLanguage(lang);
       setTimeout(updateYear, 50);
+      setTimeout(() => window.updateWhatsAppLinks(lang), 100);
     };
   }
 });

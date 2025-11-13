@@ -19,6 +19,11 @@ class LanguageSwitcher {
     this.updateControlVisual(this.currentLang);
     this.updateLanguage(this.currentLang);
     this.setupEventListeners();
+    
+    // Trigger WhatsApp link update after translations are loaded
+    if (window.updateWhatsAppLinks) {
+      setTimeout(() => window.updateWhatsAppLinks(this.currentLang), 100);
+    }
   }
 
   async loadTranslations() {
@@ -45,8 +50,10 @@ class LanguageSwitcher {
 
       const pathStrategies = [
         `${dirPath}lang/en.json`,
+        `${dirPath}../lang/en.json`,
         `/lang/en.json`,
         `lang/en.json`,
+        `../lang/en.json`,
         `./lang/en.json`
       ];
 
