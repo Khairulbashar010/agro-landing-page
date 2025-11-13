@@ -166,6 +166,24 @@ document.addEventListener('DOMContentLoaded', () => {
   // Update year after language switcher runs (with a small delay to ensure translations are loaded)
   setTimeout(updateYear, 100);
   
+  // WhatsApp URL generator with Business support and fallback
+  window.generateWhatsAppUrl = function(phoneNumber, message) {
+    // Remove any non-digit characters except + for phone number
+    const cleanPhone = phoneNumber.replace(/[^\d+]/g, '');
+    const encodedMessage = encodeURIComponent(message);
+    
+    // wa.me automatically detects and opens WhatsApp Business if the number is registered as Business
+    // Otherwise, it opens regular WhatsApp - this provides automatic fallback
+    // Format: https://wa.me/[country code][phone number]?text=[message]
+    const whatsappUrl = `https://wa.me/${cleanPhone}?text=${encodedMessage}`;
+    
+    // Alternative: If you have a WhatsApp Business Link (wa.link), you can use:
+    // const whatsappBusinessLink = 'YOUR_BUSINESS_LINK'; // e.g., from WhatsApp Business Manager
+    // return `${whatsappBusinessLink}?text=${encodedMessage}`;
+    
+    return whatsappUrl;
+  };
+
   // WhatsApp link updater (global function)
   window.updateWhatsAppLinks = function(lang = null) {
     const currentLang = lang || window.languageSwitcher?.currentLang || 'en';
@@ -182,8 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const floatingWhatsApp = document.querySelector('.whatsapp-float');
     if (floatingWhatsApp) {
       const genericMessage = translations.whatsapp?.genericMessage || "Hello! I'm interested in learning more about your investment packages.";
-      const encodedMessage = encodeURIComponent(genericMessage);
-      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+      const whatsappUrl = window.generateWhatsAppUrl(phoneNumber, genericMessage);
       floatingWhatsApp.href = whatsappUrl;
       floatingWhatsApp.setAttribute('href', whatsappUrl);
     }
@@ -207,8 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
           message = translations.whatsapp?.genericMessage || "Hello! I'm interested in learning more about your investment packages.";
       }
       
-      const encodedMessage = encodeURIComponent(message);
-      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+      const whatsappUrl = window.generateWhatsAppUrl(phoneNumber, message);
       button.href = whatsappUrl;
       button.setAttribute('href', whatsappUrl);
     });
@@ -259,8 +275,10 @@ document.addEventListener('DOMContentLoaded', () => {
               } else if (packageType === 'package3') {
                 message = "Hello! I'm interested in the Kampung Chicken Farming package. Can you provide more information?";
               }
-              const encodedMessage = encodeURIComponent(message);
-              window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank', 'noopener,noreferrer');
+              const whatsappUrl = window.generateWhatsAppUrl ? 
+                window.generateWhatsAppUrl(phoneNumber, message) : 
+                `https://wa.me/${phoneNumber.replace(/[^\d+]/g, '')}?text=${encodeURIComponent(message)}`;
+              window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
             }
           }, 200);
         }
@@ -287,8 +305,11 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
               // Fallback
               const phoneNumber = '+601124153417';
-              const message = encodeURIComponent("Hello! I'm interested in learning more about your investment packages.");
-              window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank', 'noopener,noreferrer');
+              const message = "Hello! I'm interested in learning more about your investment packages.";
+              const whatsappUrl = window.generateWhatsAppUrl ? 
+                window.generateWhatsAppUrl(phoneNumber, message) : 
+                `https://wa.me/${phoneNumber.replace(/[^\d+]/g, '')}?text=${encodeURIComponent(message)}`;
+              window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
             }
           }, 200);
         }
