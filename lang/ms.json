@@ -2,16 +2,16 @@
   "nav": {
     "home": "Laman Utama",
     "about": "Tentang Kami",
-    "investments": "Pelaburan",
+    "investments": "Pakej Pelaburan",
     "features": "Ciri-ciri",
     "contact": "Hubungi Kami"
   },
   "hero": {
-    "pill": "Penternakan Lembu Lestari",
-    "title": "Melabur dalam Penternakan Lembu Beretika",
-    "subtitle": "Sertai program pelaburan Akib Agro Farm dan kembangkan kekayaan anda sambil menyokong pertanian lestari. Platform telus kami membolehkan anda menjejaki pelaburan anda dari pembelian hingga hasil.",
+    "pill": "Platform Pelaburan Pertanian",
+    "title": "Labur dalam Pertanian dengan Pulangan Dijamin",
+    "subtitle": "Sertai peluang pelaburan Akib Agro Farm dalam penternakan kambing biri-biri dan ayam kampung. Kontrak telus, pengurusan pakar, dan pulangan terjamin. Mulakan perjalanan pelaburan pertanian anda hari ini.",
     "cta1": "Lihat Pakej Pelaburan",
-    "cta2": "Mula Sekarang",
+    "cta2": "Mula Melabur",
     "stat1": {
       "value": "500+",
       "label": "Pelabur Aktif"
@@ -27,112 +27,116 @@
   },
   "about": {
     "label": "Tentang Kami",
-    "title": "Platform Pelaburan Penternakan Lembu Yang Dipercayai",
-    "description": "Akib Agro Farm mengkhusus dalam penternakan lembu lestari dengan rekod prestasi yang terbukti. Kami menawarkan peluang pelaburan yang telus di mana anda boleh melabur dalam pakej lembu dan menjejaki pelaburan anda melalui platform pengurusan kami yang komprehensif.",
+    "title": "Platform Pelaburan Pertanian yang Dipercayai",
+    "description": "Akib Agro Farm menawarkan peluang pelaburan pertanian yang telus dalam penternakan kambing biri-biri dan ayam kampung. Dengan pengalaman bertahun-tahun dan rekod prestasi yang terbukti, kami menyediakan pelabur dengan pulangan terjamin melalui pengurusan ladang yang pakar dan amalan beretika.",
     "feature1": {
       "title": "Penjejakan Telus",
-      "description": "Pantau pelaburan anda dalam masa nyata dengan papan pemuka dan laporan terperinci."
+      "description": "Pantau pelaburan anda secara masa nyata dengan papan pemuka dan laporan terperinci."
     },
     "feature2": {
-      "title": "Bayaran Fleksibel",
-      "description": "Bayar penuh atau pilih pelan ansuran fleksibel yang bersesuaian dengan bajet anda."
+      "title": "Pulangan Dijamin",
+      "description": "Kontrak yang jelas dengan pulangan terjamin. Tiada yuran tersembunyi atau kejutan."
     },
     "feature3": {
       "title": "Pengurusan Pakar",
-      "description": "Pasukan kami yang berpengalaman menguruskan setiap aspek penjagaan lembu dan operasi ladang."
+      "description": "Pasukan kami yang berpengalaman menguruskan setiap aspek penjagaan haiwan, kesihatan, dan operasi ladang."
     }
   },
   "investments": {
-    "label": "Peluang Pelaburan",
+    "label": "Pakej Pelaburan",
     "title": "Pilih Pakej Pelaburan Anda",
-    "description": "Pilih daripada pelbagai pakej pelaburan lembu kami. Setiap pakej merangkumi ketelusan penuh, kemas kini berkala, dan pilihan pembayaran yang fleksibel.",
+    "description": "Pilih daripada pelbagai peluang pelaburan pertanian kami. Setiap pakej menawarkan terma telus, pengurusan pakar, dan pulangan terjamin.",
     "duration": "Tempoh:",
-    "price": "Harga:",
+    "price": "Kos Permulaan:",
+    "returns": "Pulangan:",
     "popular": "Popular",
-    "cta": "Melabur Sekarang",
+    "cta": "Labur Sekarang",
     "package1": {
-      "name": "Pelaburan Lembu Qurban",
-      "description": "Melabur dalam lembu premium untuk Qurban. Jejaki pelaburan anda dari pembelian hingga hasil.",
-      "duration": "12 bulan",
-      "price": "Dari RM 2,000"
+      "name": "Pelaburan Jangka Panjang Kambing Biri-biri",
+      "description": "Pelaburan 18 bulan dengan jaminan 2 ekor anak. Sesuai untuk pelaburan pertanian jangka panjang.",
+      "duration": "18 bulan",
+      "price": "RM 1,350/ekor",
+      "returns": "Dijamin 2 ekor anak"
     },
     "package2": {
-      "name": "Pakej Lembu Premium",
-      "description": "Pakej pelaburan premium dengan tempoh yang lebih panjang dan pulangan yang lebih tinggi.",
-      "duration": "18 bulan",
-      "price": "Dari RM 3,500"
+      "name": "Projek Qurban Kambing Biri-biri",
+      "description": "Pelaburan 6 bulan dengan perkongsian kos dan untung 50/50. Ideal untuk peluang pelaburan bermusim.",
+      "duration": "6 bulan",
+      "price": "RM 500/ekor",
+      "returns": "Pembahagian 50/50"
     },
     "package3": {
-      "name": "Pelaburan Kambing",
-      "description": "Pelbagaikan portfolio anda dengan pakej pelaburan penternakan kambing kami.",
-      "duration": "10 bulan",
-      "price": "Dari RM 1,500"
+      "name": "Penternakan Ayam Kampung",
+      "description": "Pelaburan 4 bulan dalam penternakan ayam kampung premium. Pulangan pantas dengan hasil yang berkualiti.",
+      "duration": "4 bulan",
+      "price": "RM 4.50/ekor",
+      "returns": "RM 40-50/ekor"
     }
   },
   "features": {
     "label": "Ciri-ciri Platform",
-    "title": "Platform Pengurusan Pelaburan Yang Lengkap",
-    "description": "Platform komprehensif kami menyediakan semua yang anda perlukan untuk mengurus dan menjejaki pelaburan anda dengan yakin.",
+    "title": "Platform Pengurusan Pelaburan Komprehensif",
+    "description": "Platform komprehensif kami menyediakan semua yang anda perlukan untuk mengurus dan menjejaki pelaburan pertanian anda dengan yakin dan telus.",
     "feature1": {
-      "title": "Pakej Pelaburan",
-      "description": "Semak imbas dan pilih daripada pelbagai pakej pelaburan lembu dengan harga dan syarat yang telus."
+      "title": "Papan Pemuka Pelaburan",
+      "description": "Pantau semua pelaburan anda di satu tempat dengan kemas kini masa nyata, penjejakan pertumbuhan, dan metrik prestasi."
     },
     "feature2": {
-      "title": "Bayaran Fleksibel",
-      "description": "Bayar penuh atau pilih pelan ansuran. Jejaki semua pembayaran dan resit anda di satu tempat."
+      "title": "Kontrak Telus",
+      "description": "Kontrak pelaburan yang jelas dengan pulangan terjamin. Semua terma, kos, dan perkongsian untung ditakrifkan dengan jelas."
     },
     "feature3": {
-      "title": "Papan Pemuka Pelaburan",
-      "description": "Pantau pelaburan anda, lihat status pesanan, dan jejaki jadual pembayaran dengan kemas kini masa nyata."
+      "title": "Penjejakan Kesihatan Haiwan",
+      "description": "Jejaki kesihatan, pertumbuhan, dan kesejahteraan haiwan yang dilaburkan dengan kemas kini dan laporan berkala."
     },
     "feature4": {
-      "title": "Pemberitahuan",
-      "description": "Terima pemberitahuan segera untuk pengesahan pesanan, peringatan pembayaran, dan kemas kini penting."
+      "title": "Kemas Kini Pelaburan",
+      "description": "Terima pemberitahuan segera untuk pencapaian pelaburan, kemas kini kesihatan, dan maklumat kontrak penting."
     },
     "feature5": {
-      "title": "Dioptimumkan untuk Mudah Alih",
-      "description": "Akses papan pemuka pelaburan anda dari mana-mana peranti, di mana sahaja, pada bila-bila masa."
+      "title": "Dioptimumkan Mudah Alih",
+      "description": "Akses papan pemuka pelaburan anda dari mana-mana peranti, di mana sahaja, pada bila-bila masa. Pantau pelaburan anda semasa bergerak."
     },
     "feature6": {
       "title": "Selamat & Telus",
-      "description": "Data anda selamat dengan keselamatan tahap perusahaan. Semua transaksi adalah telus dan boleh diaudit."
+      "description": "Data pelaburan anda terjamin dengan keselamatan bertaraf perusahaan. Semua kontrak dan pulangan adalah telus dan boleh diaudit."
     }
   },
   "process": {
     "label": "Proses Mudah",
-    "title": "Cara Pelaburan Berfungsi",
+    "title": "Cara Melabur",
     "step1": {
       "title": "Pilih Pakej",
-      "description": "Semak imbas pakej pelaburan kami dan pilih yang sesuai dengan matlamat anda."
+      "description": "Pilih daripada pakej pelaburan kami: Kambing Biri-biri Jangka Panjang, Projek Qurban, atau Ayam Kampung."
     },
     "step2": {
-      "title": "Buat Pesanan",
-      "description": "Buat pesanan pelaburan anda dan pilih kaedah pembayaran (penuh atau ansuran)."
+      "title": "Hubungi Kami",
+      "description": "Hubungi kami melalui WhatsApp atau telefon untuk membincangkan pelaburan anda dan menyemak terma kontrak."
     },
     "step3": {
-      "title": "Jejak Pelaburan",
-      "description": "Pantau pelaburan anda melalui papan pemuka kami dengan kemas kini dan laporan masa nyata."
+      "title": "Tandatangani Kontrak",
+      "description": "Semak dan tandatangani kontrak pelaburan dengan terma, kos, dan pulangan terjamin yang jelas."
     },
     "step4": {
-      "title": "Terima Pulangan",
-      "description": "Dapatkan pulangan atas pelaburan anda mengikut syarat dan tempoh pakej."
+      "title": "Jejak & Terima Pulangan",
+      "description": "Pantau pelaburan anda melalui platform kami dan terima pulangan terjamin setelah kontrak tamat."
     }
   },
   "testimonials": {
     "label": "Testimoni",
     "title": "Apa Kata Pelabur Kami",
     "testimonial1": {
-      "text": "Melabur dengan Akib Agro Farm telah menjadi pengalaman yang hebat. Platform ini telus, pembayaran mudah, dan saya boleh menjejaki segala-galanya dalam masa nyata.",
+      "text": "Melabur dengan Akib Agro Farm adalah pengalaman yang hebat. Platform ini telus, kontrak jelas, dan saya menerima pulangan terjamin tepat pada masanya. Sangat disyorkan!",
       "name": "Ahmad Rahman",
       "role": "Pelabur sejak 2022"
     },
     "testimonial2": {
-      "text": "Pilihan bayaran ansuran memudahkan saya untuk melabur. Papan pemuka mesra pengguna dan saya menerima pemberitahuan tepat pada masanya mengenai pelaburan saya.",
+      "text": "Pakej Pelaburan Jangka Panjang Kambing Biri-biri melebihi jangkaan saya. Pasukan sentiasa mengemas kini saya sepanjang 18 bulan, dan saya menerima 2 ekor anak seperti yang dijamin. Perkhidmatan cemerlang!",
       "name": "Siti Nurhaliza",
       "role": "Pelabur sejak 2023"
     },
     "testimonial3": {
-      "text": "Perkhidmatan profesional dan pulangan yang cemerlang. Pasukan ini responsif dan platform menyediakan semua maklumat yang saya perlukan untuk membuat keputusan termaklum.",
+      "text": "Saya telah melabur dalam beberapa pakej dan setiap satu memberikan apa yang dijanjikan. Projek Qurban terutamanya menguntungkan dengan perkongsian untung 50/50. Profesional dan boleh dipercayai.",
       "name": "Mohd Faizal",
       "role": "Pelabur sejak 2021"
     }
@@ -140,13 +144,13 @@
   "contact": {
     "label": "Mula Sekarang",
     "title": "Bersedia untuk Melabur?",
-    "description": "Hubungi kami hari ini untuk mengetahui lebih lanjut mengenai pakej pelaburan kami dan mulakan perjalanan anda dengan Akib Agro Farm.",
+    "description": "Hubungi kami hari ini untuk memulakan perjalanan pelaburan pertanian anda. Pasukan kami bersedia untuk menjawab soalan anda dan membantu anda memilih pakej pelaburan yang sesuai.",
     "phone": {
       "label": "Telefon",
       "value": "+60 12-345 6789"
     },
     "email": {
-      "label": "E-mel",
+      "label": "Emel",
       "value": "info@akibagro.com"
     },
     "address": {
@@ -155,17 +159,20 @@
     },
     "form": {
       "name": "Nama",
-      "email": "E-mel",
+      "email": "Emel",
       "phone": "Telefon",
       "message": "Mesej",
       "submit": "Hantar Mesej"
     }
   },
   "footer": {
-    "tagline": "Pelaburan penternakan lembu lestari.",
+    "tagline": "Peluang pelaburan pertanian yang telus.",
     "links": "Pautan Pantas",
     "contact": "Hubungi",
     "follow": "Ikuti Kami",
-    "copyright": "© 2024 Akib Agro Farm. Hak cipta terpelihara."
+    "copyright": "© 2025 Akib Agro Farm. Hak cipta terpelihara."
+  },
+  "whatsapp": {
+    "tooltip": "Hubungi untuk melabur"
   }
 }
