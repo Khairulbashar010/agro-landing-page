@@ -158,12 +158,10 @@
       "label": "Alamat",
       "value": "Selangor, Malaysia"
     },
-    "form": {
-      "name": "Nama",
-      "email": "E-mel",
-      "phone": "Telefon",
-      "message": "Mesej",
-      "submit": "Hantar Mesej"
+    "qr": {
+      "title": "Imbas untuk Hubungi melalui WhatsApp",
+      "instruction": "Imbas kod QR ini dengan telefon anda untuk memulakan perbualan di WhatsApp",
+      "button": "Buka WhatsApp"
     }
   },
   "footer": {

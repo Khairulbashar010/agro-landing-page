@@ -103,20 +103,31 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Contact form submission
-  const contactForm = document.getElementById('contact-form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const formData = new FormData(contactForm);
-      const data = Object.fromEntries(formData);
-      
-      // Here you would typically send the data to a server
-      console.log('Form submitted:', data);
-      alert('Thank you for your message! We will get back to you soon.');
-      contactForm.reset();
-    });
-  }
+  // Generate WhatsApp QR Code
+  window.updateWhatsAppQR = function() {
+    const qrImage = document.getElementById('whatsapp-qr-code');
+    if (!qrImage) return;
+
+    const phoneNumber = '+601124153417';
+    const translations = window.languageSwitcher?.translations?.[window.languageSwitcher?.currentLang || 'en'];
+    const genericMessage = translations?.whatsapp?.genericMessage || "Hello! I'm interested in learning more about your investment packages.";
+    
+    // Generate WhatsApp URL
+    const whatsappUrl = window.generateWhatsAppUrl ? 
+      window.generateWhatsAppUrl(phoneNumber, genericMessage) : 
+      `https://wa.me/${phoneNumber.replace(/[^\d+]/g, '')}?text=${encodeURIComponent(genericMessage)}`;
+    
+    // Generate QR code using QR Server API with high error correction (L=7% M=15% Q=25% H=30%)
+    // Using H (High) error correction to ensure scannability with logo overlay
+    const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(whatsappUrl)}&bgcolor=ffffff&color=000000&margin=1&ecc=H`;
+    qrImage.src = qrCodeUrl;
+    qrImage.alt = 'WhatsApp QR Code';
+  };
+
+  // Initialize QR code
+  setTimeout(() => {
+    window.updateWhatsAppQR();
+  }, 500);
 
   // Fade in animation on scroll
   const observerOptions = {
@@ -219,6 +230,9 @@ document.addEventListener('DOMContentLoaded', () => {
           break;
         case 'package3':
           message = translations.whatsapp?.package3Message || translations.whatsapp?.genericMessage || "Hello! I'm interested in the Kampung Chicken Farming package.";
+          break;
+        case 'generic':
+          message = translations.whatsapp?.genericMessage || "Hello! I'm interested in learning more about your investment packages.";
           break;
         default:
           message = translations.whatsapp?.genericMessage || "Hello! I'm interested in learning more about your investment packages.";
@@ -333,7 +347,10 @@ document.addEventListener('DOMContentLoaded', () => {
     window.languageSwitcher.updateLanguage = function(lang) {
       originalUpdateLanguage(lang);
       setTimeout(updateYear, 50);
-      setTimeout(() => window.updateWhatsAppLinks(lang), 100);
+      setTimeout(() => {
+        window.updateWhatsAppLinks(lang);
+        window.updateWhatsAppQR();
+      }, 100);
     };
   }
 });

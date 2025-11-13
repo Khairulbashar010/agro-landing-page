@@ -463,48 +463,84 @@
   color: #5a6c7d;
 }
 
-.contact-form-wrapper {
+.contact-qr-wrapper {
   background: #f8f9fa;
   padding: 2rem;
   border-radius: 16px;
-}
-
-.contact-form {
   display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+.qr-code-container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
 }
 
-.form-group label {
-  font-weight: 600;
+.qr-code-container h3 {
+  font-size: 1.5rem;
   color: #1c1f2f;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
 }
 
-.form-group input,
-.form-group textarea {
-  padding: 0.75rem;
-  border: 1px solid #ddd;
+.qr-code-wrapper {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.qr-code-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.qr-code-image {
+  width: 250px;
+  height: 250px;
+  display: block;
   border-radius: 8px;
+}
+
+.qr-logo-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 8px;
+}
+
+.qr-whatsapp-logo {
+  width: 100%;
+  height: 100%;
+  fill: #000000;
+}
+
+.qr-instruction {
+  color: #5a6c7d;
   font-size: 1rem;
-  font-family: inherit;
-  transition: border-color 0.3s ease;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: #27ae60;
-}
-
-.form-group textarea {
-  resize: vertical;
-  min-height: 120px;
+.qr-button {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 /* Responsive */
@@ -570,8 +606,23 @@
     grid-template-columns: 1fr;
   }
 
-  .contact-form-wrapper {
+  .contact-qr-wrapper {
     padding: 1.5rem;
+  }
+
+  .qr-code-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .qr-logo-overlay {
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+  }
+
+  .qr-code-container h3 {
+    font-size: 1.25rem;
   }
 }
 

@@ -158,12 +158,10 @@
       "label": "Address",
       "value": "Selangor, Malaysia"
     },
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone",
-      "message": "Message",
-      "submit": "Send Message"
+    "qr": {
+      "title": "Scan to Contact via WhatsApp",
+      "instruction": "Scan this QR code with your phone to start a conversation on WhatsApp",
+      "button": "Open WhatsApp"
     }
   },
   "footer": {
