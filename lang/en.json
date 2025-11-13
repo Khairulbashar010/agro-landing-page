@@ -299,18 +299,18 @@
         "type": "Growth Type:",
         "typeValue": "Kampung chickens are slower-growing than commercial broilers.",
         "period": "Rearing Period:",
-        "periodValue": "They usually reach market weight (1.3 – 1.8 kg live weight) in about 90 – 120 days (3–4 months).",
+        "periodValue": "They usually reach market weight (1.3 - 1.8 kg live weight) in about 90 - 120 days (3–4 months).",
         "quality": "Quality:",
         "qualityValue": "The longer rearing period gives them firmer meat and better flavour — ideal for the premium local market."
       },
       "selling": {
         "title": "Selling Price",
-        "price": "RM 40 – 50 per chicken (depending on weight and demand)",
-        "pricePerKg": "Equivalent to around RM 25 – 30 per kg"
+        "price": "RM 40 - 50 per chicken (depending on weight and demand)",
+        "pricePerKg": "Equivalent to around RM 25 - 30 per kg"
       },
       "mortality": {
         "title": "Expected Mortality Rate",
-        "rate": "Around 15 – 20% is typical for small-scale or semi-free-range kampung chicken farms, since they're less intensively managed than broilers."
+        "rate": "Around 15 - 20% is typical for small-scale or semi-free-range kampung chicken farms, since they're less intensively managed than broilers."
       },
       "summary": {
         "duration": "4 months",

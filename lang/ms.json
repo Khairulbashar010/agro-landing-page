@@ -3,15 +3,15 @@
     "home": "Laman Utama",
     "about": "Tentang Kami",
     "investments": "Pakej Pelaburan",
-    "features": "Ciri-ciri",
+    "features": "Ciri-ciri Platform",
     "contact": "Hubungi Kami"
   },
   "hero": {
     "pill": "Platform Pelaburan Pertanian",
-    "title": "Labur dalam Pertanian dengan Pulangan Dijamin",
-    "subtitle": "Sertai peluang pelaburan Akib Agro Farm dalam penternakan kambing biri-biri dan ayam kampung. Kontrak telus, pengurusan pakar, dan pulangan terjamin. Mulakan perjalanan pelaburan pertanian anda hari ini.",
+    "title": "Melabur dalam Pertanian dengan Pulangan Dijamin",
+    "subtitle": "Sertai peluang pelaburan Akib Agro Farm dalam penternakan kambing/bebiri dan ayam kampung. Kontrak telus, pengurusan pakar, dan pulangan yang dijamin. Mulakan perjalanan pelaburan pertanian anda hari ini.",
     "cta1": "Lihat Pakej Pelaburan",
-    "cta2": "Mula Melabur",
+    "cta2": "Mulakan Pelaburan",
     "stat1": {
       "value": "500+",
       "label": "Pelabur Aktif"
@@ -28,14 +28,14 @@
   "about": {
     "label": "Tentang Kami",
     "title": "Platform Pelaburan Pertanian yang Dipercayai",
-    "description": "Akib Agro Farm menawarkan peluang pelaburan pertanian yang telus dalam penternakan kambing biri-biri dan ayam kampung. Dengan pengalaman bertahun-tahun dan rekod prestasi yang terbukti, kami menyediakan pelabur dengan pulangan terjamin melalui pengurusan ladang yang pakar dan amalan beretika.",
+    "description": "Akib Agro Farm menawarkan peluang pelaburan pertanian yang telus dalam penternakan kambing/bebiri dan ayam kampung. Dengan pengalaman bertahun-tahun dan rekod prestasi yang terbukti, kami menyediakan pelabur dengan pulangan yang dijamin melalui pengurusan ladang pakar dan amalan beretika.",
     "feature1": {
       "title": "Penjejakan Telus",
-      "description": "Pantau pelaburan anda secara masa nyata dengan papan pemuka dan laporan terperinci."
+      "description": "Pantau pelaburan anda dalam masa nyata dengan papan pemuka dan laporan yang terperinci."
     },
     "feature2": {
       "title": "Pulangan Dijamin",
-      "description": "Kontrak yang jelas dengan pulangan terjamin. Tiada yuran tersembunyi atau kejutan."
+      "description": "Kontrak yang jelas dengan pulangan yang dijamin. Tiada yuran tersembunyi atau kejutan."
     },
     "feature3": {
       "title": "Pengurusan Pakar",
@@ -45,23 +45,23 @@
   "investments": {
     "label": "Pakej Pelaburan",
     "title": "Pilih Pakej Pelaburan Anda",
-    "description": "Pilih daripada pelbagai peluang pelaburan pertanian kami. Setiap pakej menawarkan terma telus, pengurusan pakar, dan pulangan terjamin.",
+    "description": "Pilih daripada rangkaian peluang pelaburan pertanian kami. Setiap pakej menawarkan terma yang telus, pengurusan pakar, dan pulangan yang dijamin.",
     "duration": "Tempoh:",
     "price": "Kos Permulaan:",
     "returns": "Pulangan:",
     "popular": "Popular",
-    "cta": "Labur Sekarang",
+    "cta": "Melabur Sekarang",
     "learnMore": "Ketahui Lebih Lanjut",
     "package1": {
-      "name": "Pelaburan Jangka Panjang Kambing Biri-biri",
+      "name": "Pelaburan Jangka Panjang Kambing/Bebiri",
       "description": "Pelaburan 18 bulan dengan jaminan 2 ekor anak. Sesuai untuk pelaburan pertanian jangka panjang.",
       "duration": "18 bulan",
       "price": "RM 1,350/ekor",
       "returns": "Dijamin 2 ekor anak"
     },
     "package2": {
-      "name": "Projek Qurban Kambing Biri-biri",
-      "description": "Pelaburan 6 bulan dengan perkongsian kos dan untung 50/50. Ideal untuk peluang pelaburan bermusim.",
+      "name": "Projek Qurban Kambing/Bebiri",
+      "description": "Pelaburan 6 bulan dengan perkongsian kos dan keuntungan 50/50. Ideal untuk peluang pelaburan bermusim.",
       "duration": "6 bulan",
       "price": "RM 500/ekor",
       "returns": "Pembahagian 50/50"
@@ -76,31 +76,31 @@
   },
   "features": {
     "label": "Ciri-ciri Platform",
-    "title": "Platform Pengurusan Pelaburan Komprehensif",
-    "description": "Platform komprehensif kami menyediakan semua yang anda perlukan untuk mengurus dan menjejaki pelaburan pertanian anda dengan yakin dan telus.",
+    "title": "Platform Pengurusan Pelaburan Yang Komprehensif",
+    "description": "Platform komprehensif kami menyediakan semua yang anda perlukan untuk mengurus dan menjejak pelaburan pertanian anda dengan keyakinan dan ketelusan.",
     "feature1": {
       "title": "Papan Pemuka Pelaburan",
       "description": "Pantau semua pelaburan anda di satu tempat dengan kemas kini masa nyata, penjejakan pertumbuhan, dan metrik prestasi."
     },
     "feature2": {
       "title": "Kontrak Telus",
-      "description": "Kontrak pelaburan yang jelas dengan pulangan terjamin. Semua terma, kos, dan perkongsian untung ditakrifkan dengan jelas."
+      "description": "Kontrak pelaburan yang jelas dengan pulangan yang dijamin. Semua terma, kos, dan perkongsian keuntungan ditakrifkan dengan jelas."
     },
     "feature3": {
       "title": "Penjejakan Kesihatan Haiwan",
-      "description": "Jejaki kesihatan, pertumbuhan, dan kesejahteraan haiwan yang dilaburkan dengan kemas kini dan laporan berkala."
+      "description": "Jejak kesihatan, pertumbuhan, dan kesejahteraan haiwan yang dilaburkan dengan kemas kini dan laporan berkala."
     },
     "feature4": {
       "title": "Kemas Kini Pelaburan",
       "description": "Terima pemberitahuan segera untuk pencapaian pelaburan, kemas kini kesihatan, dan maklumat kontrak penting."
     },
     "feature5": {
-      "title": "Dioptimumkan Mudah Alih",
+      "title": "Dioptimumkan untuk Mudah Alih",
       "description": "Akses papan pemuka pelaburan anda dari mana-mana peranti, di mana sahaja, pada bila-bila masa. Pantau pelaburan anda semasa bergerak."
     },
     "feature6": {
       "title": "Selamat & Telus",
-      "description": "Data pelaburan anda terjamin dengan keselamatan bertaraf perusahaan. Semua kontrak dan pulangan adalah telus dan boleh diaudit."
+      "description": "Data pelaburan anda selamat dengan keselamatan gred perusahaan. Semua kontrak dan pulangan adalah telus dan boleh diaudit."
     }
   },
   "process": {
@@ -108,7 +108,7 @@
     "title": "Cara Melabur",
     "step1": {
       "title": "Pilih Pakej",
-      "description": "Pilih daripada pakej pelaburan kami: Kambing Biri-biri Jangka Panjang, Projek Qurban, atau Ayam Kampung."
+      "description": "Pilih daripada pakej pelaburan kami: Kambing/Bebiri Jangka Panjang, Projek Qurban, atau Ayam Kampung."
     },
     "step2": {
       "title": "Hubungi Kami",
@@ -116,42 +116,42 @@
     },
     "step3": {
       "title": "Tandatangani Kontrak",
-      "description": "Semak dan tandatangani kontrak pelaburan dengan terma, kos, dan pulangan terjamin yang jelas."
+      "description": "Semak dan tandatangani kontrak pelaburan dengan terma yang jelas, kos, dan pulangan yang dijamin."
     },
     "step4": {
       "title": "Jejak & Terima Pulangan",
-      "description": "Pantau pelaburan anda melalui platform kami dan terima pulangan terjamin setelah kontrak tamat."
+      "description": "Pantau pelaburan anda melalui platform kami dan terima pulangan yang dijamin setelah tamat kontrak."
     }
   },
   "testimonials": {
     "label": "Testimoni",
     "title": "Apa Kata Pelabur Kami",
     "testimonial1": {
-      "text": "Melabur dengan Akib Agro Farm adalah pengalaman yang hebat. Platform ini telus, kontrak jelas, dan saya menerima pulangan terjamin tepat pada masanya. Sangat disyorkan!",
+      "text": "Melabur dengan Akib Agro Farm adalah pengalaman yang hebat. Platform ini telus, kontrak jelas, dan saya menerima pulangan yang dijamin tepat pada masanya. Sangat disyorkan!",
       "name": "Ahmad Rahman",
       "role": "Pelabur sejak 2022"
     },
     "testimonial2": {
-      "text": "Pakej Pelaburan Jangka Panjang Kambing Biri-biri melebihi jangkaan saya. Pasukan sentiasa mengemas kini saya sepanjang 18 bulan, dan saya menerima 2 ekor anak seperti yang dijamin. Perkhidmatan cemerlang!",
+      "text": "Pakej Pelaburan Kambing/Bebiri Jangka Panjang melebihi jangkaan saya. Pasukan ini sentiasa mengemas kini saya sepanjang 18 bulan, dan saya menerima 2 ekor anak seperti yang dijamin. Perkhidmatan yang cemerlang!",
       "name": "Siti Nurhaliza",
       "role": "Pelabur sejak 2023"
     },
     "testimonial3": {
-      "text": "Saya telah melabur dalam beberapa pakej dan setiap satu memberikan apa yang dijanjikan. Projek Qurban terutamanya menguntungkan dengan perkongsian untung 50/50. Profesional dan boleh dipercayai.",
+      "text": "Saya telah melabur dalam beberapa pakej dan setiap satunya memberikan seperti yang dijanjikan. Projek Qurban amat menguntungkan dengan perkongsian keuntungan 50/50. Profesional dan boleh dipercayai.",
       "name": "Mohd Faizal",
       "role": "Pelabur sejak 2021"
     }
   },
   "contact": {
-    "label": "Mula Sekarang",
+    "label": "Mulakan Sekarang",
     "title": "Bersedia untuk Melabur?",
-    "description": "Hubungi kami hari ini untuk memulakan perjalanan pelaburan pertanian anda. Pasukan kami bersedia untuk menjawab soalan anda dan membantu anda memilih pakej pelaburan yang sesuai.",
+    "description": "Hubungi kami hari ini untuk memulakan perjalanan pelaburan pertanian anda. Pasukan kami sedia menjawab soalan anda dan membantu anda memilih pakej pelaburan yang betul.",
     "phone": {
       "label": "Telefon",
       "value": "+60 11-2415 3417"
     },
     "email": {
-      "label": "Emel",
+      "label": "E-mel",
       "value": "info@akibagro.com"
     },
     "address": {
@@ -160,7 +160,7 @@
     },
     "form": {
       "name": "Nama",
-      "email": "Emel",
+      "email": "E-mel",
       "phone": "Telefon",
       "message": "Mesej",
       "submit": "Hantar Mesej"
@@ -175,10 +175,10 @@
   },
   "whatsapp": {
     "tooltip": "Hubungi untuk melabur",
-    "genericMessage": "Hello! Saya berminat untuk mengetahui lebih lanjut tentang pakej pelaburan anda.",
-    "package1Message": "Hello! Saya berminat dengan pakej Pelaburan Jangka Panjang Kambing Biri-biri. Bolehkah anda memberikan maklumat lanjut?",
-    "package2Message": "Hello! Saya berminat dengan Projek Qurban Kambing Biri-biri. Bolehkah anda memberikan maklumat lanjut?",
-    "package3Message": "Hello! Saya berminat dengan pakej Penternakan Ayam Kampung. Bolehkah anda memberikan maklumat lanjut?"
+    "genericMessage": "Salam! Saya berminat untuk mengetahui lebih lanjut mengenai pakej pelaburan anda.",
+    "package1Message": "Salam! Saya berminat dengan pakej Pelaburan Jangka Panjang Kambing/Bebiri. Boleh berikan maklumat lanjut?",
+    "package2Message": "Salam! Saya berminat dengan Projek Qurban Kambing/Bebiri. Boleh berikan maklumat lanjut?",
+    "package3Message": "Salam! Saya berminat dengan pakej Penternakan Ayam Kampung. Boleh berikan maklumat lanjut?"
   },
   "packageDetail": {
     "back": "← Kembali ke Pakej",
@@ -186,22 +186,22 @@
     "duration": "Tempoh:",
     "initialCost": "Kos Permulaan:",
     "returns": "Pulangan:",
-    "profitShare": "Perkongsian Untung:",
+    "profitShare": "Perkongsian Keuntungan:",
     "monthlyCost": "Kos Bulanan:",
     "sellingPrice": "Harga Jualan:",
-    "cta": "Labur Sekarang",
+    "cta": "Melabur Sekarang",
     "package1": {
       "badge": "Pelaburan Jangka Panjang",
-      "title": "Pelaburan Jangka Panjang Kambing Biri-biri",
+      "title": "Pelaburan Jangka Panjang Kambing/Bebiri",
       "subtitle": "Pelaburan 18 bulan dengan jaminan 2 ekor anak. Sesuai untuk pelaburan pertanian jangka panjang dengan terma telus dan pengurusan pakar.",
       "initialCost": {
         "title": "Kos Permulaan",
         "purchase": "Pembelian:",
-        "purchaseValue": "RM 850 seekor",
-        "care": "Makanan, Ubat & Penjagaan:",
-        "careValue": "RM 500 seekor",
+        "purchaseValue": "RM 850 seekor kambing/bebiri",
+        "care": "Makanan, Ubat-ubatan & Penjagaan:",
+        "careValue": "RM 500 seekor kambing/bebiri",
         "total": "Jumlah Kos Permulaan:",
-        "totalValue": "RM 1,350 seekor"
+        "totalValue": "RM 1,350 seekor kambing/bebiri"
       },
       "contract": {
         "title": "Tempoh Kontrak",
@@ -213,63 +213,63 @@
       },
       "extension": {
         "title": "Pilihan Sambungan",
-        "description": "Selepas 18 bulan pertama, teruskan untuk 18 bulan lagi dengan hanya membayar RM 500 seekor (untuk penjagaan dan makanan)."
+        "description": "Selepas 18 bulan pertama, sambung untuk 18 bulan lagi hanya dengan membayar RM 500 seekor kambing/bebiri (untuk penjagaan dan makanan)."
       },
       "specifications": {
         "title": "Spesifikasi Umur & Berat",
         "age": "Umur Pembelian Ideal:",
-        "ageValue": "Kambing biri-biri dewasa muda yang telah mencapai umur matang pembiakan: sekitar 15 bulan untuk betina dan kira-kira 13 bulan untuk jantan.",
+        "ageValue": "Kambing/bebiri dewasa muda yang telah mencapai umur pembiakan matang: sekitar 15 bulan untuk betina dan sekitar 13 bulan untuk jantan.",
         "weight": "Berat Hidup:",
-        "weightValue": "Untuk pembelian pembiakan, kambing biri-biri sekitar 12-18 bulan dan berat 35-45 kg akan menjadi garis panduan yang munasabah (bergantung pada baka dan keadaan)."
+        "weightValue": "Untuk pembelian pembiakan, kambing/bebiri sekitar 12-18 bulan dan berat 35-45 kg adalah garis panduan yang munasabah (bergantung pada baka dan keadaan)."
       },
       "mortality": {
         "title": "Kadar Kematian Dijangka",
-        "rate": "Untuk kambing biri-biri secara amnya di bawah pengurusan yang baik: kira-kira 5-10% kematian."
+        "rate": "Untuk kambing/bebiri secara am di bawah pengurusan yang baik: sekitar 5-10% kematian."
       },
       "summary": {
         "duration": "18 bulan",
         "cost": "RM 1,350/ekor",
-        "returns": "Dijamin 2 ekor anak"
+        "returns": "2 ekor anak dijamin"
       }
     },
     "package2": {
       "badge": "Popular",
-      "title": "Projek Qurban Kambing Biri-biri",
-      "subtitle": "Pelaburan 6 bulan dengan perkongsian kos dan untung 50/50. Ideal untuk peluang pelaburan bermusim dengan terma telus.",
+      "title": "Projek Qurban Kambing/Bebiri",
+      "subtitle": "Pelaburan 6 bulan dengan perkongsian kos dan keuntungan 50/50. Ideal untuk peluang pelaburan bermusim dengan terma telus.",
       "contract": {
         "title": "Tempoh Kontrak",
         "duration": "Enam bulan"
       },
       "initialCost": {
-        "title": "Perkongsian Kos Permulaan (seekor)",
+        "title": "Perkongsian Kos Permulaan (seekor kambing/bebiri)",
         "purchase": "Pembelian:",
         "purchaseValue": "RM 500",
         "food": "Makanan:",
-        "foodValue": "RM 20–30 seekor sebulan",
+        "foodValue": "RM 20–30 seekor kambing/bebiri sebulan",
         "service": "Yuran Perkhidmatan:",
-        "serviceValue": "RM 5 seekor sebulan"
+        "serviceValue": "RM 5 seekor kambing/bebiri sebulan"
       },
       "profit": {
-        "title": "Perkongsian Untung & Kos",
+        "title": "Perkongsian Keuntungan & Kos",
         "cost": "Kos Dikongsi:",
         "costValue": "50/50",
-        "profit": "Untung Dikongsi:",
+        "profit": "Keuntungan Dikongsi:",
         "profitValue": "50/50"
       },
       "selling": {
         "title": "Harga Jualan",
-        "price": "Harga pasaran purata: RM 900-1,100 untuk kambing biri-biri ~30kg"
+        "price": "Purata harga pasaran: RM 900-1,100 untuk kambing/bebiri ~30kg"
       },
       "specifications": {
         "title": "Spesifikasi Umur & Berat",
         "age": "Umur Pembelian Ideal:",
-        "ageValue": "Beli kambing biri-biri yang sudah hampir dengan berat jualan/kurban untuk mengurangkan risiko dan masa pemakanan. Di Malaysia kambing biri-biri matang pada 6-9 bulan untuk kematangan umum.",
+        "ageValue": "Sasarkan untuk membeli kambing/bebiri yang sudah hampir dengan berat jualan/qurban untuk mengurangkan risiko dan masa pemakanan. Di Malaysia, kambing/bebiri matang pada 6-9 bulan untuk kematangan umum.",
         "weight": "Berat Sasaran:",
-        "weightValue": "Jika berat sasaran adalah ~30 kg untuk jualan, anda mungkin membeli kambing biri-biri berumur 6-9 bulan dengan berat hidup mungkin 20-30 kg (bergantung baka). Ini memastikan dalam tempoh enam bulan kambing biri-biri dapat mencapai berat jualan."
+        "weightValue": "Jika berat sasaran adalah ~30 kg untuk jualan, anda kemungkinan besar akan membeli kambing/bebiri mungkin 6-9 bulan dengan berat hidup mungkin 20-30 kg (bergantung pada baka). Ini memastikan bahawa dalam tempoh enam bulan kambing/bebiri boleh mencapai berat jualan."
       },
       "mortality": {
         "title": "Kadar Kematian Dijangka",
-        "rate": "Walaupun sasaran anda adalah 5-10%, projek tempoh intensif yang lebih pendek mungkin melihat lebih rendah atau lebih tinggi bergantung pada pengurusan; gunakan angka 5-10% sebagai garis panduan."
+        "rate": "Walaupun sasaran anda adalah 5-10%, projek tempoh intensif yang lebih pendek mungkin melihat kadar yang lebih rendah atau lebih tinggi bergantung pada pengurusan; gunakan angka 5-10% sebagai garis panduan."
       },
       "summary": {
         "duration": "6 bulan",
@@ -280,37 +280,37 @@
     "package3": {
       "badge": "Pulangan Pantas",
       "title": "Penternakan Ayam Kampung",
-      "subtitle": "Pelaburan 4 bulan dalam penternakan ayam kampung premium. Pulangan pantas dengan hasil berkualiti dan terma telus.",
+      "subtitle": "Pelaburan 4 bulan dalam penternakan ayam kampung premium. Pulangan pantas dengan hasil yang berkualiti dan terma telus.",
       "contract": {
         "title": "Tempoh Kontrak",
         "duration": "Empat bulan"
       },
       "initialCost": {
-        "title": "Kos Permulaan (seekor)",
+        "title": "Kos Permulaan (seekor ayam)",
         "purchase": "Pembelian:",
         "purchaseValue": "RM 4.50"
       },
       "monthlyCost": {
         "title": "Kos Bulanan",
-        "food": "Makanan: RM 12–15 seekor"
+        "food": "Makanan: RM 12–15 seekor ayam"
       },
       "growth": {
         "title": "Maklumat Pertumbuhan",
         "type": "Jenis Pertumbuhan:",
         "typeValue": "Ayam kampung tumbuh lebih perlahan daripada ayam pedaging komersial.",
-        "period": "Tempoh Penternakan:",
-        "periodValue": "Mereka biasanya mencapai berat pasaran (1.3 – 1.8 kg berat hidup) dalam kira-kira 90 – 120 hari (3–4 bulan).",
+        "period": "Tempoh Ternakan:",
+        "periodValue": "Mereka biasanya mencapai berat pasaran (1.3 - 1.8 kg berat hidup) dalam masa kira-kira 90 - 120 hari (3–4 bulan).",
         "quality": "Kualiti:",
-        "qualityValue": "Tempoh penternakan yang lebih lama memberikan mereka daging yang lebih padat dan rasa yang lebih baik — sesuai untuk pasaran tempatan premium."
+        "qualityValue": "Tempoh ternakan yang lebih lama memberikan daging yang lebih pejal dan rasa yang lebih baik — sesuai untuk pasaran tempatan premium."
       },
       "selling": {
         "title": "Harga Jualan",
-        "price": "RM 40 – 50 seekor (bergantung pada berat dan permintaan)",
-        "pricePerKg": "Setara dengan sekitar RM 25 – 30 sekilogram"
+        "price": "RM 40 - 50 seekor ayam (bergantung pada berat dan permintaan)",
+        "pricePerKg": "Setara dengan sekitar RM 25 - 30 sekilogram"
       },
       "mortality": {
         "title": "Kadar Kematian Dijangka",
-        "rate": "Sekitar 15 – 20% adalah tipikal untuk ladang ayam kampung berskala kecil atau separa bebas, kerana mereka kurang dikendalikan secara intensif berbanding ayam pedaging."
+        "rate": "Sekitar 15 - 20% adalah tipikal untuk ladang ayam kampung berskala kecil atau separa bebas, kerana ia kurang diurus secara intensif berbanding ayam pedaging."
       },
       "summary": {
         "duration": "4 bulan",
