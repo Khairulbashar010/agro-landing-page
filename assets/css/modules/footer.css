@@ -86,8 +86,12 @@
   color: white;
   text-decoration: none;
   transition: all 0.3s ease;
-  font-weight: 600;
-  font-size: 0.9rem;
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 .social-icon:hover {
