@@ -195,11 +195,11 @@
       "initialCost": {
         "title": "Initial Cost",
         "purchase": "Purchase:",
-        "purchaseValue": "RM 850 per sheep",
+        "purchaseValue": "RM 850/sheep",
         "care": "Food, Medicine & Care:",
-        "careValue": "RM 500 per sheep",
+        "careValue": "RM 500/sheep",
         "total": "Total Initial Cost:",
-        "totalValue": "RM 1,350 per sheep"
+        "totalValue": "RM 1,350/sheep"
       },
       "contract": {
         "title": "Contract Duration",
@@ -211,7 +211,7 @@
       },
       "extension": {
         "title": "Extension Option",
-        "description": "After the first 18 months, continue for another 18 months by only paying RM 500 per sheep (for care and food)."
+        "description": "After the first 18 months, continue for another 18 months by only paying RM 500/sheep (for care and food)."
       },
       "specifications": {
         "title": "Age & Weight Specifications",
@@ -239,13 +239,13 @@
         "duration": "Six months"
       },
       "initialCost": {
-        "title": "Initial Cost Sharing (per sheep)",
+        "title": "Initial Cost Sharing (/sheep)",
         "purchase": "Purchase:",
         "purchaseValue": "RM 500",
         "food": "Food:",
-        "foodValue": "RM 20–30 per sheep per month",
+        "foodValue": "RM 20–30/sheep/month",
         "service": "Service Fee:",
-        "serviceValue": "RM 5 per sheep per month"
+        "serviceValue": "RM 5/sheep/month"
       },
       "profit": {
         "title": "Profit & Cost Sharing",
@@ -284,13 +284,13 @@
         "duration": "Four months"
       },
       "initialCost": {
-        "title": "Initial Cost (per chicken)",
+        "title": "Initial Cost (/chicken)",
         "purchase": "Purchase:",
         "purchaseValue": "RM 4.50"
       },
       "monthlyCost": {
         "title": "Monthly Cost",
-        "food": "Food: RM 12–15 per chicken"
+        "food": "Food: RM 12–15/chicken"
       },
       "growth": {
         "title": "Growth Information",
@@ -303,8 +303,8 @@
       },
       "selling": {
         "title": "Selling Price",
-        "price": "RM 40 - 50 per chicken (depending on weight and demand)",
-        "pricePerKg": "Equivalent to around RM 25 - 30 per kg"
+        "price": "RM 40 - 50/chicken (depending on weight and demand)",
+        "pricePerKg": "Equivalent to around RM 25 - 30/kg"
       },
       "mortality": {
         "title": "Expected Mortality Rate",

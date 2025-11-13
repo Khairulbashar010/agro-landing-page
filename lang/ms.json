@@ -195,11 +195,11 @@
       "initialCost": {
         "title": "Kos Permulaan",
         "purchase": "Pembelian:",
-        "purchaseValue": "RM 850 seekor kambing/bebiri",
+        "purchaseValue": "RM 850/kambing/bebiri",
         "care": "Makanan, Ubat-ubatan & Penjagaan:",
-        "careValue": "RM 500 seekor kambing/bebiri",
+        "careValue": "RM 500/kambing/bebiri",
         "total": "Jumlah Kos Permulaan:",
-        "totalValue": "RM 1,350 seekor kambing/bebiri"
+        "totalValue": "RM 1,350/kambing/bebiri"
       },
       "contract": {
         "title": "Tempoh Kontrak",
@@ -211,7 +211,7 @@
       },
       "extension": {
         "title": "Pilihan Sambungan",
-        "description": "Selepas 18 bulan pertama, sambung untuk 18 bulan lagi hanya dengan membayar RM 500 seekor kambing/bebiri (untuk penjagaan dan makanan)."
+        "description": "Selepas 18 bulan pertama, sambung untuk 18 bulan lagi hanya dengan membayar RM 500/kambing/bebiri (untuk penjagaan dan makanan)."
       },
       "specifications": {
         "title": "Spesifikasi Umur & Berat",
@@ -239,13 +239,13 @@
         "duration": "Enam bulan"
       },
       "initialCost": {
-        "title": "Perkongsian Kos Permulaan (seekor kambing/bebiri)",
+        "title": "Perkongsian Kos Permulaan (/kambing/bebiri)",
         "purchase": "Pembelian:",
         "purchaseValue": "RM 500",
         "food": "Makanan:",
-        "foodValue": "RM 20–30 seekor kambing/bebiri sebulan",
+        "foodValue": "RM 20–30/kambing/bebiri/bulan",
         "service": "Yuran Perkhidmatan:",
-        "serviceValue": "RM 5 seekor kambing/bebiri sebulan"
+        "serviceValue": "RM 5/kambing/bebiri/bulan"
       },
       "profit": {
         "title": "Perkongsian Keuntungan & Kos",
@@ -284,13 +284,13 @@
         "duration": "Empat bulan"
       },
       "initialCost": {
-        "title": "Kos Permulaan (seekor ayam)",
+        "title": "Kos Permulaan (/ayam)",
         "purchase": "Pembelian:",
         "purchaseValue": "RM 4.50"
       },
       "monthlyCost": {
         "title": "Kos Bulanan",
-        "food": "Makanan: RM 12–15 seekor ayam"
+        "food": "Makanan: RM 12–15/ayam"
       },
       "growth": {
         "title": "Maklumat Pertumbuhan",
@@ -303,8 +303,8 @@
       },
       "selling": {
         "title": "Harga Jualan",
-        "price": "RM 40 - 50 seekor ayam (bergantung pada berat dan permintaan)",
-        "pricePerKg": "Setara dengan sekitar RM 25 - 30 sekilogram"
+        "price": "RM 40 - 50/ayam (bergantung pada berat dan permintaan)",
+        "pricePerKg": "Setara dengan sekitar RM 25 - 30/kg"
       },
       "mortality": {
         "title": "Kadar Kematian Dijangka",
